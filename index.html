@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goutam's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a4ee71e0ec.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="logo.png" class="logo"> -->
+                <h1>My_ <span class="multiple-text"></span></h1>
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <p>UI/UX Designer</p> -->
+
+                <h1>Hii, I'm <span>Goutam Parmar</span><br> From India.</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------about------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="me.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me :-</h1>
+                    <p>Hello! My name is Goutam Parmar, and I am thrilled to introduce myself to you. I am a Learner of
+                        Advance Web Design/Development & App Development with a deep love for Coding Languages. I am
+                        excited to share my journey, experiences, and accomplishments with you.
+
+                        My Education, Professional Experience & Skills are please see below.
+
+                        Passions and Interests:- Aside from my professional pursuits, I am deeply passionate about
+                        Coding and Reading. I find joy in playing outdoor games and spending time with friends. These
+                        pursuits not only bring balance to my life but also enhance my creativity, problem-solving
+                        abilities, and overall well-being.
+
+                        Future Goals:- Looking ahead, I am committed to pursuing further growth and success in my field.
+                        I am constantly seeking opportunities to expand my knowledge, develop new skills, and contribute
+                        to meaningful projects that make a positive impact.
+
+                        In conclusion, I am an enthusiastic and dedicated professional who brings a combination of
+                        education, experience, and a genuine passion for my work.
+
+                        Thank you for taking the time to learn more about me. I invite you to explore my portfolio to
+                        delve deeper into my experiences and achievements. Feel free to reach out to me for any further
+                        inquiries or collaboration opportunities.
+                    </p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>july - 2023</span><br>Working as Intern at Oasis Infobyte.</li>
+                            <li><span>june - 2023</span><br>Internship Experience at Bharat Intern.</li>
+                            <li><span>june - 2023</span><br>Internship Experience at CodeClause.</li>
+                            <li><span>nov - 2022</span><br>Basic iot devices Experience at my college.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - 2025</span><br>Currently Pursuing B.Tech (Computer Science & Engineering)
+                                from Barkatullah University, Bhopal.</li>
+                            <li><span>2020-21</span><br>Higher Secondary Examination with 95% score.</li>
+                            <li><span>2018-19</span><br>High School Examination with 94.6% score.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------services---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services :-</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <!-- <p>gjfgdfnfbnfnbjjbjf</p> -->
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <!-- <p>gjfgdfnfbnfnbjjbjf</p> -->
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <!-- <p>gjfgdfnfbnfnbjjbjf</p> -->
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------portfolio---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work :-</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.jpg">
+                    <div class="layer">
+                        <h3>Unit Converter</h3>
+                        <p>Unit converter converts the different units of measurement for the same quantity through
+                            multiplicative conversion factors.
+                        </p>
+                        <a href=" https://lnkd.in/dSPAfsUj"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.jpg">
+                    <div class="layer">
+                        <h3>Temperature Converter</h3>
+                        <p>Temperature degrees conversions of Fahrenheit (°F), Celsius (°C), Kelvin (K).
+                        </p>
+                        <a href="https://goutam2003.github.io/Temperature---converter/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.jpg">
+                    <div class="layer">
+                        <h3>Netflix Homepage</h3>
+                        <p>Netflix is an American subscription video on-demand over-the-top streaming service owned and
+                            operated by Netflix, Inc. It offers films and television series from various generation.
+                        </p>
+                        <a href="https://goutam2003.github.io/Netflix-Homepage/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ---------contect------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me :-</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> Contact :- parmargoutam164@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 9098153924</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/goutam_parmar_111?igshid=MzNlNGNkZWQ4Mg=="><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/goutam-parmar-972448225"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Goutam2003/Goutam-Parmar"><i
+                                class="fa-brands fa-square-github"></i></a>
+                        <!-- <a href=""><i class="fa-brands fa-square-facebook"></i></a> -->
+
+                    </div>[]
+                    <a href="" class="btn btn2">Downlod CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Goutam Parmar, for this <i class="fa-solid fa-heart"></i> Portfolio </p>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
